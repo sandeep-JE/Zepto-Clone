@@ -1,0 +1,92 @@
+
+.navbar {
+    background: linear-gradient(to top, #ffffff, #e3c3ec);
+    padding: 10px 55px;
+    position: fixed;
+    width: 100%;
+}
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-primary {
+    margin: 0 !important;
+}
+form {
+    flex-grow: 1;
+    max-width: 70%;
+    position: relative;
+}
+.nav-link {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+form .form-control {
+    padding-left: 40px; 
+    font-size: 20.5px;
+    border-radius: 7px;
+}
+form .position-absolute {
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+}
+.ps-2{
+    padding-left: 20px !important;   
+}
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.container div{
+    border-radius: 15px;
+    column-gap: 0px;
+}
+.row{
+    column-gap: 10px !important;
+
+}
+
+.col-md-12{
+    text-align: start !important;
+    padding: 20px !important;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', Arial;
+}
+.row1
+{
+    height: 80px;
+}
+#row2{
+    width: 100% !important;
+    column-gap: 30px !important;
+}
+#row3{
+    column-gap: 80px !important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.d-flex a p span{
+    font-size: 12px;
+
+}
+
+.ps-5{
+    margin-right: -8px !important;
+}
+.me-1 p{
+    margin: none !important;
+}
